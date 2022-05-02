@@ -32,7 +32,7 @@ def price(request):
     return render(request, 'price.html', {})
 
 
-def service(request):
+def services(request):
     return render(request, 'service.html', {})
 
 
